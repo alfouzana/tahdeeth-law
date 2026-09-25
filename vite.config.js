@@ -11,6 +11,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         logos: resolve(__dirname, "logos.html"),
+        card: resolve(__dirname, "card.html"),
       },
     },
   },
