@@ -1,0 +1,1 @@
+import"./style-BaBtHKal.js";const t=document.querySelector("[data-nav-toggle]"),n=document.querySelector("[data-nav-menu]");t?.addEventListener("click",()=>n?.classList.toggle("hidden"));document.querySelectorAll("[data-year]").forEach(e=>e.textContent=String(new Date().getFullYear()));
